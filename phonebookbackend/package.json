@@ -7,17 +7,25 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "build": "app build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
   },
   "author": "Hanna Kaimo",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.24.3",
     "@babel/register": "^7.23.7",
+    "@eslint/js": "^9.8.0",
+    "@stylistic/eslint-plugin-js": "^2.4.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.8.0",
     "nodemon": "^3.1.2"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1"
   }
 }

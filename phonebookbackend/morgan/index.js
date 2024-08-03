@@ -1,14 +1,15 @@
-const express = require('express');
-const logger = require('morgan');
-const port = 3000;
+const express = require('express')
+const logger = require('morgan')
+const port = 3000
 
-const app = express();
-app.use(logger('dev'));
+const app = express()
+app.use(logger('dev'))
 
 app.get('/api/persons', (req, res) => {
-  res.json(persons);
-});
+  // eslint-disable-next-line no-undef
+  res.json(persons)
+})
 
-app.listen(port, () => {
-  console.log(`Started at ${port}`);
-});
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Started at ${port}`)
+})
