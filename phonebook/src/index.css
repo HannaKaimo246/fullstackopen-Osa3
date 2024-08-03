@@ -1,5 +1,5 @@
 .notification {
-  color: red;
+  color: green;
   background: lightgrey;
   font-size: 20px;
   border-style: solid;
@@ -9,7 +9,24 @@
 }
 
 .notification2 {
-  color: green;
+  color: red;
+  background: lightgrey;
+  font-size: 20px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.firstheader {
+  color: rgb(74, 131, 16);
+  font-family: 'Arial, sans-serif';
+  font-style: italic;
+  font-weight: bold;
+}
+
+.notification3 {
+  color: red;
   background: lightgrey;
   font-size: 20px;
   border-style: solid;
