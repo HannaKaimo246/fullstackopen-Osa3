@@ -9,7 +9,11 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "server": "json-server -p3001 --watch db.json",
+<<<<<<< HEAD
     "start": "vite"
+=======
+    "start": "vite build && vite preview"
+>>>>>>> 745e8a45c100e67c49eafcac3ed533bc36a04f89
   },
   "dependencies": {
     "axios": "^1.6.8",
